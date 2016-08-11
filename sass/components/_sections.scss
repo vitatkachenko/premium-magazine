@@ -753,6 +753,15 @@
 		left: 0;
     	text-align: left;
 	}
+
+	.design {
+		background: $color-light-grey-background;
+		color: $color-dark-grey-background;
+
+		.article-preview-post {
+			color: $color-dark-grey;
+		}
+	}
 }
 
 .photo-post-info-wrapper {
