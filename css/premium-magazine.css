@@ -1001,8 +1001,44 @@ a:hover {
 }
 
 /* line 823, ../sass/components/_sections.scss */
-hr + div img {
+.hip-hop hr + div img {
   width: 100%;
+}
+
+/* line 827, ../sass/components/_sections.scss */
+.recent-comments {
+  background: #F0F0F0;
+  color: #2D2D2D;
+}
+/* line 831, ../sass/components/_sections.scss */
+.recent-comments .photo-post-wrapper {
+  color: #A4A4A4;
+  height: auto;
+  margin: 20px 0;
+}
+/* line 837, ../sass/components/_sections.scss */
+.recent-comments .photo-post-info-wrapper {
+  line-height: 4em;
+}
+/* line 840, ../sass/components/_sections.scss */
+.recent-comments .photo-post-info-wrapper span:first-child {
+  display: inline-block;
+  padding-left: 20px;
+}
+/* line 845, ../sass/components/_sections.scss */
+.recent-comments .photo-post-info-wrapper span:nth-child(odd) {
+  display: inline-block;
+  margin: 0 10px 0 10px;
+}
+/* line 851, ../sass/components/_sections.scss */
+.recent-comments .hr-blue {
+  margin-bottom: 0;
+}
+
+/* line 856, ../sass/components/_sections.scss */
+.empty-block {
+  height: 30px;
+  background: #FFF;
 }
 
 /* line 1, ../sass/components/_learn-jquery.scss */
