@@ -1,0 +1,22 @@
+{
+  "name": "premium-magazine",
+  "authors": [
+    "Vita Tkachenko <vita.tkachenko19@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "latest",
+    "font-awesome": "latest"
+  }
+}

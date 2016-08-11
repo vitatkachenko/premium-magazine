@@ -1,0 +1,87 @@
+body {
+	background: url(../images/forest-background.jpg);
+	background-size: cover;
+	margin: 0;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.clearfix:after, .clearfix:before {
+	display: block;
+	content: "";
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+
+a {
+	color: inherit;
+
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+.w49 {
+	width: 49.8%;
+	height: 395px;
+	display: inline-block;
+	box-sizing: border-box;
+	color: $color-white;
+	margin: 5px 0 5px 0;
+	overflow: hidden;
+}
+
+.w33 {
+	width: 33.1%;
+	height: 240px;
+	display: inline-block;
+	box-sizing: border-box;
+	color: $color-white;
+	overflow: hidden;
+}
+
+.w24 {
+	width: 24.7%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.w20 {
+	width: 20%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.w45 {
+	width: 45%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.w34 {
+	width: 34%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.w54 {
+	width: 54%;
+	display: inline-block;
+}
+
+.w79 {
+	width: 79%;
+	display: inline-block;
+}
+
+.post-background {
+    -webkit-transition: all 1s ease-out;
+ }
+ 
+.post-background:hover{
+    -webkit-transform: scale(1.1);
+ }
