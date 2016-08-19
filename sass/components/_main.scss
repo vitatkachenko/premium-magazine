@@ -57,6 +57,12 @@ a {
 	vertical-align: top;
 }
 
+.w48 {
+	width: 48%;
+	display: inline-block;
+	vertical-align: top;
+}
+
 .w45 {
 	width: 45%;
 	display: inline-block;
@@ -79,10 +85,29 @@ a {
 	display: inline-block;
 }
 
+.w66 {
+	width: 66%;
+}
+
 .post-background {
     -webkit-transition: all 1s ease-out;
- }
+}
  
 .post-background:hover{
     -webkit-transform: scale(1.1);
- }
+}
+
+.w49and5 {
+	width: 49.5%;
+    height: 230px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.second-latest-product {
+	float: left;
+}
+
+.third-latest-product {
+	float: right;
+}
