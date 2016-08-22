@@ -1464,6 +1464,24 @@ ul.carousel-comments {
   width: 25%;
 }
 
+/* line 1212, ../sass/components/_sections.scss */
+#my-carousel {
+  height: 225px;
+  overflow: hidden;
+}
+/* line 1216, ../sass/components/_sections.scss */
+#my-carousel ul {
+  margin: 0;
+}
+/* line 1220, ../sass/components/_sections.scss */
+#my-carousel li {
+  list-style-type: none;
+}
+/* line 1224, ../sass/components/_sections.scss */
+#my-carousel .film_roll_prev, #my-carousel .film_roll_next {
+  height: 100%;
+}
+
 /* line 1, ../sass/components/_learn-jquery.scss */
 .change_color {
   color: #DADADA;

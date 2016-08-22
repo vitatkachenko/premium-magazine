@@ -8,6 +8,7 @@
 		<link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
 		<script type="text/javascript" src="jquery-3.0.0.min.js"></script>
 		<script type="text/javascript" src="learn-jquery.js"></script>
+		<script type="text/javascript" src="jcarousellite/jquery.jcarousellite.js"></script>
 	</head>
 	<body>
 		<header class="header-magazine">
@@ -1893,12 +1894,22 @@
 							<h3 class="articles-preview-heading">valenti slider widget</h3>
 							<hr class="hr-orange">
 							<div class="empty-block"></div>
-							<div class="top-review-wrapper">
-								<img class="top-review-photo" alt="здоровый обед" src="images/latest-posts-img2.jpg"/>
-								<img class="top-review-photo" alt="рога и копыта" src="images/bones.jpg"/>
-								<img class="top-review-photo" alt="винтажный вентилятор" src="images/fan.jpg"/>
-								<img class="top-review-photo" alt="красивый лес" src="images/gotic-wood.jpg"/>		
-								<h3 class="top-review-title">morbi elementum justo id lectus porta dictum</h3>
+							<div class="top-review-wrapper" id="my-carousel">
+								<ul>
+									<li>
+										<img class="top-review-photo" alt="здоровый обед" src="images/latest-posts-img2.jpg"/>
+									</li>
+									<li>
+										<img class="top-review-photo" alt="рога и копыта" src="images/bones.jpg"/>
+									</li>
+									<li>
+										<img class="top-review-photo" alt="винтажный вентилятор" src="images/fan.jpg"/>
+									</li>
+									<li>
+										<img class="top-review-photo" alt="красивый лес" src="images/gotic-wood.jpg"/>
+									</li>
+								</ul>	
+								<!-- <h3 class="top-review-title">morbi elementum justo id lectus porta dictum</h3>
 								<div class="post-identificator">
 									<p class="post-identificator__item article-image-presentation__author">
 										<i class="fa fa-user" aria-hidden="true"></i>
@@ -1916,9 +1927,9 @@
 										<i class="fa fa-eye" aria-hidden="true"></i>
 										<span>9034</span>
 									</p>
-								</div>
-								<a class="film_roll_prev" href="#">‹</a>
+								</div> -->
 				    			<a class="film_roll_next" href="#">›</a>
+				    			<a class="film_roll_prev" href="#">‹</a>
 							</div>
 						</div>
 					</div>
