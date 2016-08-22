@@ -698,6 +698,18 @@
     background: $color-header-hover-design;
 }
 
+.hr-red {
+	border-color: $color-header-hover-music;
+    height: 2px;
+    background: $color-header-hover-music;
+}
+
+.hr-orange {
+	border-color: $color-header-hover-features;
+    height: 2px;
+    background: $color-header-hover-features;
+}
+
 .latest-posts__item .post-identificator {
 	left: 2%;
 }
@@ -736,6 +748,12 @@
     }
 }
 
+.w66.music + .leaderboard-wrapper {
+	width: 66%;
+	margin: 50px 0 50px 0;
+    float: left;
+}
+
 .sections-info {
 	width: 1140px;
 	margin: 0 auto;
@@ -752,6 +770,15 @@
 		position: inherit;
 		left: 0;
     	text-align: left;
+	}
+
+	.design {
+		background: $color-light-grey-background;
+		color: $color-dark-grey-background; 
+
+		.article-preview-post {
+			color: $color-dark-grey;
+		}
 	}
 }
 
@@ -811,7 +838,309 @@
     letter-spacing: -0.5px;
 }
 
-hr + div img {
+.hip-hop hr + div img, .top-review-wrapper img {
 	width: 100%;
 }
 
+.recent-comments {
+	.photo-post-wrapper {
+		color: $color-dark-grey;
+	    height: auto;
+    	margin: 20px 0;
+	}
+
+	.photo-post-info-wrapper {
+		line-height: 4em;
+
+		span:first-child {
+			display: inline-block;
+			padding-left: 20px;
+		}
+
+		span:nth-child(odd) {
+			display: inline-block;
+	    	margin: 0 10px 0 10px;
+		}
+	}
+
+	.hr-blue {
+		margin-bottom: 0;
+	}
+}
+
+.empty-block {
+	height: 30px;
+	background: $color-white;
+}
+
+#social-media__wrapper {
+	background: $color-white;
+	padding: 20px 0 30px 0;
+	box-sizing: border-box;
+
+	i {
+    	font-size: 85px;
+	    margin: 9px;
+	}
+}
+
+.hr-orange {
+	border-color: $color-header-hover-features;
+    height: 2px;
+    background: $color-header-hover-features;
+    margin-bottom: 0;
+}
+
+.fa-rss-square {
+	color: $color-icon-rss;
+}
+
+.fa-twitter-square {
+	color: $color-icon-twitter;
+}
+
+.fa-facebook-square {
+	color: $color-icon-facebook;
+}
+
+.fa-google-plus-square {
+	color: $color-icon-google;
+}
+
+.top-reviews, .social-media, .recent-comments, .w66.music, .slider-widget {
+	background: $color-light-grey-background;
+	color: $color-dark-grey-background; 
+	overflow: hidden;
+}
+
+.top-reviews {
+	position: relative;
+
+	.percent-off {
+		right: 0;
+		text-align: center;
+		padding: 5px 15px 5px 15px;
+		color: $color-white;
+		
+    	sub {
+			font-size: 16px;
+		}
+		
+		span:first-child {
+			font-size: 35px;
+	    	font-weight: bold;
+	 		display: block;
+		}
+
+    	span:last-child {
+		    font-size: 9px;
+		    text-transform: uppercase;
+		    display: inline-block;
+    	}
+	}
+}
+
+.top-review-wrapper {
+	position: relative;
+
+	.post-identificator {
+		text-align: center;
+	    position: absolute;
+	    color: $color-white;
+	    bottom: 15px;
+	    width: 100%;
+	}
+}
+
+.top-position {
+	display: inline-block;
+    background: rgba(218, 218, 218, 0.7);
+    padding: 10px 18px;
+    color: $color-black;
+    font-weight: bold;
+    font-size: 28px;
+    position: absolute;
+    top: 0;
+}
+
+.top-review-title {
+	text-transform: uppercase;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #fff;
+    position: absolute;
+    bottom: 45px;
+    padding: 0 10px 0 10px;
+    text-align: center;
+}
+
+.lighten-rss-icon {
+	color: lighten($color-icon-rss, 10%);
+}
+
+.lighten-facebook-icon {
+	color: lighten($color-icon-facebook, 10%);
+}
+
+.lighten-twitter-icon {
+	color: lighten($color-icon-twitter, 10%);
+}
+
+.lighten-google-icon {
+	color: lighten($color-icon-google, 10%);	
+}
+
+.carousel-recent-comment-2 {
+	display: none;
+	margin: 0 10px 0 10px;
+}
+
+.recent-comments .photo-post-info-wrapper .carousel-recent-comment-1 {
+	padding: 0 !important;
+}
+
+ul.carousel-comments {
+	padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.recent-comments, .social-media, .top-reviews, .slider-widget {
+	margin-bottom: 25px;
+}
+
+.w33.design, .w33.hip-hop {
+	float: left;
+	margin-right: 0.33%;
+}
+
+.top-review-wrapper {
+	.film_roll_prev {
+		height: 98%;
+		text-decoration: none;
+	}
+
+	.film_roll_next {
+		height: 98%;
+		text-decoration: none;
+	}
+}
+
+.w66.music {
+	float: left; 
+	padding-bottom: 25px;
+	margin-top: 30px;
+}
+
+.w48.music__post-wrapper:first-child {
+	float: left;
+    overflow: hidden;
+    height: 240px;
+}
+
+.w48.music__post-wrapper:last-child {
+	float: right;
+    height: 240px;
+}
+
+.music__post-wrapper {
+	.fa-stack {
+		font-size: 35px;
+	    position: absolute;
+    	top: 36%;
+    	left: 40%;
+	}
+
+	.fa-circle {
+		color: rgba(240, 240, 240, 0.7);	
+	}
+
+	.fa-headphones {
+		font-size: 25px;
+	}
+
+	p.article-preview-post {
+		color: $color-dark-grey;
+	}
+}
+
+.right-column {
+	float: right;
+}
+
+.music-post-image-wrapper {
+	background-size: cover;
+	width: 100%;
+    height: 240px;
+    position: relative;
+}
+
+.music-post-image-wrapper.post-1 {
+	background-image: url(../images/jellyfish.jpg);
+}
+.music-post-image-wrapper.post-2 {
+	background-image: url(../images/firewood.jpg);
+}
+
+.w66.latest-products {
+    float: left;
+}
+
+.first-latest-product, .second-latest-product, .third-latest-product {
+	position: relative;
+	overflow: hidden;
+	background: rgba(45, 45, 45, 0.4);
+
+	img {
+	    width: 100%;
+	    height: 100%;
+	    opacity: 0.8;
+	}
+}
+
+.latest-posts-header {
+	background: $color-light-grey-background;
+	color: $color-dark-grey-background; 
+}
+
+.first-latest-product {
+  	margin-bottom: 7px;
+    height: 400px;
+}
+
+.latest-products-top-heading {
+	text-transform: uppercase;
+	color: $color-white;
+	position: absolute;
+	bottom: 20px;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+}
+
+.puzzle-article-block {
+    width: 100%;
+    float: left;
+
+    .w49and5 {
+    	height: auto;
+    	vertical-align: top;
+    }
+}
+
+.puzzle-article-block__big {
+	width: 100%;
+}
+
+.puzzle-article-block__big, .puzzle-article-block__small {
+	height: 235px;
+	margin-bottom: 4px;
+}
+
+.puzzle-article-block__image {
+	width: 100%;
+}
+
+.w49and5.puzzle-article-block__small:nth-child(2) {
+	float: right;
+}
