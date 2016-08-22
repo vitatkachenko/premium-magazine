@@ -1208,3 +1208,21 @@ ul.carousel-comments {
 	border-bottom: 1px solid $color-dark-grey-background;
     width: 25%;
 }
+
+#my-carousel {
+    height: 225px;
+    overflow: hidden;
+
+	ul {
+		margin: 0;
+	}
+
+	li {
+		list-style-type: none;
+	}
+
+	.film_roll_prev, .film_roll_next {
+	    height: 100%;
+	}
+}
+

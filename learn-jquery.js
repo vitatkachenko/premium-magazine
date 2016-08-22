@@ -181,5 +181,18 @@ $(document).ready(function() {
 		$('.thick-vertical-lines').hide('fast');
 		$('.thick-horizontal-lines').hide('fast');
 	});
+
+	$(function() {
+		$("#my-carousel").jCarouselLite({
+		    btnNext: ".film_roll_next",
+		    btnPrev: ".film_roll_prev"
+		    auto: 2000,
+			speed: 1000,
+			circular: true,
+			visible: 1
+		});
+	});
+
+
 });
 
