@@ -173,10 +173,7 @@ $(document).ready(function() {
 		linesInThisBlock.find('.thick-horizontal-lines').show('fast');
 		$(this).css("padding", "0 40px 0 40px");
 		$(this).css("transition", "0.5s ease-out");
-<<<<<<< HEAD
 		$('.article-image-presentation__views').css("display", "none");
-=======
->>>>>>> e85ba9b2151120c18b8d41aa7ea522baef71a7b3
 	});
 
 	$('.sections-article-wrapper').mouseleave(function() {
@@ -184,11 +181,5 @@ $(document).ready(function() {
 		$('.thick-vertical-lines').hide('fast');
 		$('.thick-horizontal-lines').hide('fast');
 	});
-
-<<<<<<< HEAD
-
-
-=======
->>>>>>> e85ba9b2151120c18b8d41aa7ea522baef71a7b3
 });
 
